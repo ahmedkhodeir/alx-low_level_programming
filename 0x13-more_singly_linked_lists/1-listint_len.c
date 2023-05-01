@@ -4,13 +4,13 @@
  * listint_len - returns the number of elements
  * @h: linked list of type listint_t
  *
- * Return: number of nodes
+ * Return: number of node
  */
 size_t listint_len(const listint_t *h)
 {
 	size_t num = 0;
 
-	while (a)
+	while (h)
 	{
 		num++;
 		h = h->next;
@@ -18,4 +18,3 @@ size_t listint_len(const listint_t *h)
 
 	return (num);
 }
-
